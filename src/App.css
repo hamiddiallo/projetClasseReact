@@ -1,0 +1,95 @@
+body{
+  margin:0;
+}
+
+#root{
+  display: flex;
+  justify-content: space-around;
+}
+
+h1{
+  background-color: #000;
+  color:#fff;
+  margin-top:0;
+  margin-left: 0;
+  margin-right: 0;
+  padding:17px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App{
+  text-align: center;
+  padding:7px;
+  font-family:sans-serif;
+  border-radius: 4px;
+}
+
+.temp-normal{
+  background-color: #ADFF2F;
+}
+
+.temp-normal span:first-child{
+  color:#2e8442;
+}
+.temp-chaud{
+  background-color:#FF4500;
+  border: 1px solid #a33943;
+}
+
+.temp-chaud span:first-child{
+  color:#a33943;
+}
+
+.temp-froid{
+  background-color: #87CEEB;
+  border:1px solid #769ad1;
+}
+
+.temp-froid span:first-child{
+  color:#4975b8;
+}
+
+.temp-glacial{
+  background-color:#00BFFF;
+  border:1px solid #80a7e0;
+}
+
+.temp-glacial span:first-child{
+  color:#4975b8;
+}
+
+section:first-child{
+  width:40%;
+}
+
+section{
+  width:40%;
+}
+
+form{
+  box-shadow: 0 2px 4px #d8e1e8;
+  border:1px solid #d5e3ec;
+  padding:20px 10px;
+  font-family: sans-serif;
+  border-radius: 4px;
+  color:#121c4299;
+  font-weight: bold;
+}
+
+form div{
+  margin:25px 0;
+}
+
+form div input{
+  position:relative;
+  left:20px;
+}
+.App p{
+  display: flex;
+  justify-content: space-around;
+}
+
+p span:first-child{
+  font-weight: bolder;
+}
